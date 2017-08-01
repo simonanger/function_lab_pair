@@ -43,3 +43,13 @@ def number_to_full_month_name()
   third_month_string = "March".to_i = 3
   ninth_month_string = "September".to_i = 9
 end
+
+def number_to_full_month_name(number)
+  case number_to_full_month_name
+  when 1
+    return "January"
+  when 3
+    return "March"
+  else
+    return "September"
+end
