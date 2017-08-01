@@ -59,3 +59,12 @@ def number_to_short_month_name(number)
     return "Sep"
   end
 end
+
+def volume_of_cube(side)
+
+  volume = (side ** 3)
+
+  return volume
+
+
+end
