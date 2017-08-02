@@ -13,3 +13,16 @@ end
 def length_of_string(string)
   return string.length()
 end
+
+def number_to_full_month_name(month_number)
+  case (month_number)
+  when 1
+    return "January"
+  when 3
+    return "March"
+  when 9
+    return "September"
+
+  end
+
+end
